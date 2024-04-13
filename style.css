@@ -154,7 +154,6 @@ main#cs > p {
 }
 
 main h1 {
-    background-image: linear-gradient(to right, var(--cor4), transparent);
     padding: 5px;
 }
 
