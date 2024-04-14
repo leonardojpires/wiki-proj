@@ -164,7 +164,7 @@ main p {
 }
 
 main img {
-    margin-bottom: 10px;
+    margin: 0px auto 10px auto;
 }
 
 main figcaption {
@@ -296,7 +296,7 @@ footer a:hover {
     color: var(--cor5);
 }
 
-@media screen and (max-width: 1378px) {
+@media screen and (max-width: 1260px) {
     main {
       display: flex;
       flex-direction: column;
@@ -310,5 +310,9 @@ footer a:hover {
     article {
       order: 1;
       width: 100%;
+    }
+
+    img {
+        margin: auto;
     }
 }
